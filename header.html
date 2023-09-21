@@ -45,13 +45,14 @@
     }
 
     .navbar-nav .nav-item {
-      margin: 20px;
+      margin: 25px;
       text-align: center;
     }
 
     .navbar-brand {
       height: 100px;
       display: flex;
+      font-size: 20px;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -68,13 +69,43 @@
       padding-right: 100px;
     }
 
-    @media (max-width: 1280px) {
+    @media only screen and (max-width: 1450px) {
+      /*90%*/
 
-      .group-icon,
+      .group-icon {
+        width: 75px;
+        top: 15px;
+      }
+
+      .navbar {
+        height: 90px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .navbar-nav .nav-item {
+        margin: 7px;
+      }
+
       .navbar-brand {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+        height: 75px;
+        font-size: 16px;
+      }
+
+      .ul1 {
+        padding-left: 61px;
+      }
+
+      .ul2 {
+        padding-right: 75px;
+      }
+    }
+
+    @media only screen and (max-width: 1280px) {
+      /*100%*/
+
+      body {
+        background-color: antiquewhite;
       }
 
       .group-icon {
@@ -82,45 +113,19 @@
         top: 14px;
       }
 
-      .navbar-nav {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-      }
-
       .navbar {
         height: 80px;
         font-size: 14px;
         font-weight: 500;
-        border-bottom-right-radius: 30px;
-        border-bottom-left-radius: 30px;
-        background-color: #f4f4f4;
-        box-shadow: 0 5.296551704406738px 11.92px rgba(0, 0, 0, 0.25);
-      }
-
-      .navbar-nav .nav-item .nav-link:hover {
-        color: #AD163A;
-      }
-
-      .navbar-brand.tabheader:hover {
-        color: #AD163A;
       }
 
       .navbar-nav .nav-item {
-        margin: 14px;
-        text-align: center;
+        margin: 8px;
       }
 
       .navbar-brand {
         height: 67px;
         font-size: 14px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0;
-        padding: 0;
       }
 
       .ul1 {
@@ -169,13 +174,13 @@
     </div>
   </nav>
   <script>
-    // function getScreenWidth() {
-    //   const screenWidth = window.innerWidth;
-    //   const screenHeight = window.innerHeight;
-    //   alert(`Current screen width: ${screenWidth}px and height is ${screenHeight}`);
-    // }
+    function getScreenWidth() {
+      const screenWidth = window.innerWidth;
+      const screenHeight = window.innerHeight;
+      alert(`Current screen width: ${screenWidth}px and height is ${screenHeight}`);
+    }
 
-    // getScreenWidth();
+    getScreenWidth();
   </script>
 </body>
 
