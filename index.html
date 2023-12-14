@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/partials.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarina&display=swap" rel="stylesheet">
+  <title>CIT Innovation Labs</title>
+  <link rel="icon" href="img/pattampoochi.png" type="image/gif" />
+</head>
+
+<body>
+  <div class="container" id="navContainer">
+    <div>
+      <a href="portfolio.html">
+        <p>PORTFOLIO</p>
+      </a>
+    </div>
+    <div>
+      <a href="facilities.html">
+        <p>FACILITIES</p>
+      </a>
+    </div>
+    <div>
+      <a href="about.html">
+        <p>ABOUT US</p>
+      </a>
+    </div>
+    <div>
+      <a href="incubation.html">
+        <p>INCUBATION</p>
+      </a>
+    </div>
+    <div>
+      <a href="index.html">
+        <img class="logo" src="img/common/icon.gif" alt="">
+        <p style="color: #AD163A;">INNOVATION LABS</p>
+      </a>
+    </div>
+    <div>
+      <a href="events.html">
+        <p>EVENTS</p>
+      </a>
+    </div>
+    <div>
+      <a href="career.html">
+        <p>CAREER</p>
+      </a>
+    </div>
+    <div>
+      <a href="subscribe.html">
+        <p>SUBSCRIBE</p>
+      </a>
+    </div>
+    <div>
+      <button onclick="dropdown()" class="dropdownBtn ideabook" type="button">IN-CUBATE</button>
+      <ul id="dropdown" class="dropdownContent">
+        <li class="dropdownItem"><a
+            href="https://docs.google.com/forms/d/1x_QoJuSxuLq6sW2LjHzCVX9fQbBBNo88MedtY0cIuyE/viewform?chromeless=1&edit_requested=true"
+            target="_blank">Corporate Innovation Form</a></li>
+        <li class="dropdownItem"><a
+            href="https://docs.google.com/forms/d/1tc5VexWtAr2qKVG1ya7lk-v1HobwZ9-BYMP0dfsreMg/viewform?chromeless=1&edit_requested=true"
+            target="_blank">Problem statements Form</a></li>
+        <li class="dropdownItem"><a
+            href="https://docs.google.com/forms/d/1rErDnHxUUhUwjFcNZpnYhLyDXJ9XK9BeEVYQDLL2zo8/viewform?chromeless=1&edit_requested=true"
+            target="_blank">Strategies Form</a></li>
+        <li class="dropdownItem"><a
+            href="https://docs.google.com/forms/d/1c4hTSfF_riaxVBXPZ2HUa-obFMKR5MRkFDI4lWGYSmE/viewform?chromeless=1&edit_requested=true"
+            target="_blank">Incubate Form</a></li>
+      </ul>
+    </div>
+
+    <img src="img/common/collapse.svg" id="hamIcon" style="display: none" onclick="toggleMenu()" alt="">
+    <p id="textPara" onclick="toggleMenu()" style="display: none;">X</p>
+  </div>
+
+  <div class="main">
+    <div class="section1">
+      <section class="carousel">
+        <div class="slider__wrapper">
+          <div class="slider">
+            <img src="img/incubation.png" alt="" id="slide1">
+            <img src="img/startup20x.png" alt="" id="slide2">
+            <img src="img/startup_thiruvizha.png" alt="" id="slide3">
+            <img src="img/self_reliant_bharath.png" alt="" id="slide4">
+            <img src="img/makeathon.jpg" alt="" id="slide5">
+          </div>
+          <div class="slider__nav">
+            <a id="btn1"></a>
+            <a id="btn2"></a>
+            <a id="btn3"></a>
+            <a id="btn4"></a>
+            <a id="btn5"></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div claass="section2">
+      <div class="container2">
+        <div class="heading">OUR SUCCESS FORMULA</div><br>
+        <img class="ftpm" src="img/ftpm2.png" alt="">
+      </div>
+    </div>
+    <div class="section3">
+      <div class="container3">
+        <p class="heading">INCUBATION CENTER</p>
+      </div>
+      <div class="container4">
+        <p class="content">The Chennai Institute of Technology's Innovation Labs (CITIL) is dedicated to nurturing
+          entrepreneurship by offering mentorship, cutting-edge technology, and specialized COEs for deep tech product
+          development. We provide crucial funding and comprehensive support, guiding ideas to become thriving
+          businesses. CITIL's focus is transforming innovative concepts into successful, sustainable ventures. Our
+          commitment lies in empowering startups to flourish and thrive in the market. With a blend of mentorship,
+          technology, and tailored support, we pave the way for the growth of entrepreneurial endeavors. Join us in this
+          journey of turning inventive ideas into prosperous business realities..</p>
+        <img class="img4" src="img/incubation.png" alt="">
+      </div>
+    </div>
+    <div class="section4">
+      <div class="statcontent">
+        <div>
+          <p class="number" id="number1">0</p>
+          <p class="number">+</p>
+          <p class="con">Startups supported</p>
+        </div>
+        <div>
+          <p class="number" id="number2">0</p>
+          <p class="number">+</p>
+          <p class="con">Sq ft space created</p>
+        </div>
+        <div>
+          <p class="number" id="number3">0</p>
+          <p class="number">L</p>
+          <p class="con">Funds sanctioned</p>
+        </div>
+        <div>
+          <p class="number" id="number4">0</p>
+          <p class="number">+</p>
+          <p class="con">Patents filed</p>
+        </div>
+      </div>
+    </div>
+    <div class="section5">
+      <div class="container5">
+        <div class="heading">FOCUS AREAS</div>
+        <p class="text">Our primary focus area is in the Deeptech domain,
+          but not limited to any one specific sector</p>
+      </div>
+    </div>
+    <div class="section6">
+      <div class="focon">
+        <div class="focon1">
+          <div class="row1">
+            <div>
+              <img src="img/domain/AI-ML.png" alt="">
+              <br><br><br>
+              <caption>AI/ML</caption>
+            </div>
+            <div>
+              <img src="img/domain/Digital-Manufacturing.png" alt="">
+              <br><br><br>
+              <caption>Digital Manufacturing</caption>
+            </div>
+            <div>
+              <img src="img/domain/Quantum-Computing.png" alt="">
+              <br><br><br>
+              <caption>Quantum Computing</caption>
+            </div>
+            <div>
+              <img src="img/domain/Cybersecurity.png" alt="">
+              <br><br><br>
+              <caption>Cybersecurity</caption>
+            </div>
+          </div>
+          <div class="row2">
+            <div>
+              <img src="img/domain/Blockchain.png" alt="">
+              <br><br><br>
+              <caption>Blockchain</caption>
+            </div>
+            <div>
+              <img src="img/domain/Robotics.png" alt="">
+              <br><br><br>
+              <caption>Robotics</caption>
+            </div>
+            <div>
+              <img src="img/domain/3D-Printing.png" alt="">
+              <br><br><br>
+              <caption>3D-Printing</caption>
+            </div>
+            <div>
+              <img src="img/domain/Industry-4.png" alt="">
+              <br><br><br>
+              <caption>Industry 4.0</caption>
+            </div>
+          </div>
+        </div>
+        <div class="focon2">
+          <div class="row1">
+            <div>
+              <img src="img/domain/Electric-Vehicle.png" alt="">
+              <br><br><br>
+              <caption>Electric Vehicle</caption>
+            </div>
+            <div>
+              <img src="img/domain/Autonomous-Navigation.png" alt="">
+              <br><br><br>
+              <caption>Autonomous Navigation</caption>
+            </div>
+            <div>
+              <img src="img/domain/Biotechnology.png" alt="">
+              <br><br><br>
+              <caption>Biotechnology</caption>
+            </div>
+            <div>
+              <img src="img/domain/AR-VR.png" alt="">
+              <br><br><br>
+              <caption>AR-VR</caption>
+            </div>
+          </div>
+          <div class="row1">
+            <div>
+              <img src="img/domain/Sensors.png" alt="">
+              <br><br><br>
+              <caption>Sensors</caption>
+            </div>
+            <div>
+              <img src="img/domain/Advanced-Materials.png" alt="">
+              <br><br><br>
+              <caption>Advanced Materials</caption>
+            </div>
+            <div>
+              <img src="img/domain/IOT.png" alt="">
+              <br><br><br>
+              <caption>IOT</caption>
+            </div>
+            <div>
+              <img src="img/domain/Chip-Design.png" alt="">
+              <br><br><br>
+              <caption>Chip Design</caption>
+            </div>
+          </div>
+        </div>
+        <div class="dotses">
+          <div class="dotz active"></div>
+          <div class="dotz"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section7">
+      <div class="slider2">
+        <p class="heading">Incubation and Ecosystem Partners</p>
+        <div class="slide-track">
+          <img src="img/Artboard 1.png" height="auto" width="500px" alt="" />
+          <img src="img/Artboard 2.png" height="auto" width="500px" alt="" />
+          <img src="img/Artboard 3.png" height="auto" width="500px" alt="" />
+          <img src="img/Artboard 4.png" height="auto" width="500px" alt="" />
+          <img src="img/Artboard 5.png" height="auto" width="500px" alt="" />
+          <img src="img/Artboard 6.png" height="auto" width="500px" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="section8">
+      <p class="heading">HOW CITIL ADDS VALUE</p>
+      <br>
+      <div class="imgContainer">
+        <div>
+          <img class="img1" src="img/Left.png" alt="">
+        </div>
+        <div>
+          <img class="img2" src="img/Right.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="section9">
+      <div>
+        <img class="pattampoochi" src="img/icon copy.gif" alt="">
+        <p class="talk">Testimonials</p>
+        <div class="testimonial">
+          <div class="testimonial">
+            <div class="testimonial-container" id="testimonial4">
+              <!-- Dynamic testimonial -->
+            </div>
+            <div class="testimonial-container" id="testimonial5">
+              <!-- Dynamic testimonial -->
+            </div>
+            <div class="testimonial-container" id="testimonial6">
+              <!-- Dynamic testimonial -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section10">
+      <div>
+        <img class="pattampoochi" src="img/icon copy.gif" alt="">
+        <p class="talk">Founder's Talk</p>
+        <div class="testimonial">
+          <div class="testimonial">
+            <div class="testimonial-container" id="testimonial1">
+              <!-- Dynamic testimonial -->
+            </div>
+            <div class="testimonial-container" id="testimonial2">
+              <!-- Dynamic testimonial -->
+            </div>
+            <div class="testimonial-container" id="testimonial3">
+              <!-- Dynamic testimonial -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="left">
+      <p>Copyright &copy; 2023 CITIL - All Rights Reserved.</p>
+    </div>
+    <div class="center">
+      <a href="https://www.linkedin.com/company/citbif/" target="_blank"><img class="icons"
+          src="img/common/linkedin.svg" alt=""></a>
+      <a href="https://www.instagram.com/citinnovationlabs/" target="_blank"><img class="icons"
+          src="img/common/instagram.svg" alt=""></a>
+      <a href="https://twitter.com/Cit_Inno_Labs" target="_blank"><img class="icons" src="img/common/x.svg" alt=""></a>
+    </div>
+    <div class="right">
+      <p>Powered by <a href="https://www.genzmarketers.in/" target="_blank"><span>Gen Z Marketers</span></a></p>
+    </div>
+  </footer>
+  <script>
+    const jsDropdown = document.getElementById("dropdown");
+    function dropdown() {
+      jsDropdown.classList.toggle("show-dropdown");
+    }
+    document.documentElement.addEventListener
+      ("click", function (event) {
+        if (!event.target.matches('.dropdownBtn')) {
+          if (jsDropdown.classList.contains("show-dropdown")) {
+            jsDropdown.classList.toggle("show-dropdown");
+          }
+        }
+      }
+      );
+    function updateVisibility() {
+      var container = document.getElementById("navContainer");
+      var hamIcon = document.getElementById("hamIcon");
+      var textPara = document.getElementById("textPara");
+
+      if (window.innerWidth <= 1280) {
+        // Screen size is below 1280px
+        hamIcon.style.display = "block";
+        textPara.style.display = "none";
+        container.classList.remove("dropdown"); // Close dropdown if open
+      } else {
+        // Screen size is greater than 1280px
+        hamIcon.style.display = "none";
+        textPara.style.display = "none";
+        container.classList.remove("dropdown"); // Close dropdown if open
+      }
+    }
+
+    function toggleMenu() {
+      var container = document.getElementById("navContainer");
+      container.classList.toggle("dropdown");
+
+      var hamIcon = document.getElementById("hamIcon");
+      var textPara = document.getElementById("textPara");
+
+      if (container.classList.contains("dropdown")) {
+        hamIcon.style.display = "none";
+        textPara.style.display = "block";
+      } else {
+        hamIcon.style.display = "block";
+        textPara.style.display = "none";
+      }
+    }
+
+    // Initial visibility setup
+    window.addEventListener('load', updateVisibility);
+    // Update visibility on window resize
+    window.addEventListener('resize', updateVisibility);
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>

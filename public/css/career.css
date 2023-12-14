@@ -1,0 +1,134 @@
+body {
+    background: linear-gradient(90deg, #520014 0%, #A70026 49.85%, #520114 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    color: #f4f4f4;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 2rem;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    background-color: #f4f4f4;
+    width: 80%;
+    min-height: 60%;
+    margin: 4% auto;
+    border-radius: 20px;
+
+}
+
+/* .foreground {
+    text-align: center;
+    margin: 2%;
+} */
+
+.vector {
+    display: inline;
+    width: 40%;
+    border-radius: 20px;
+    margin: 5%;
+    /* border-width: 5px;
+    border-color: black;   */
+}
+
+form {
+    text-align: left;
+    width: 60%;
+}
+
+input {
+    font-family: "Montserrat";
+    display: block;
+    width: 80%;
+    background: none;
+    /* outline: none;
+    text-align: center; */
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 20px 0px 10px;
+    margin: 2%;
+    font-size: 20px;
+}
+
+textarea {
+    font-family: "Montserrat";
+    display: inline;
+    margin: 2%;
+    width: 80%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.intern {
+    font-size: 25px;
+    margin: 2%;
+    color: blue;
+}
+
+.submitBtn {
+    padding: 2%;
+    color: white;
+    width: 100px;
+    margin: 2%;
+    border: none;
+    background-color: #AD163A;
+    border-radius: 7.5px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: medium;
+    filter: brightness(120%);
+}
+
+button:hover {
+    filter: brightness(100%);
+}
+
+@media (max-width: 1200px) {
+    .main {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .vector {
+        width: 80%;
+        margin: 8% 0px 2%;
+    }
+
+    input, textarea {
+        width: 140%;
+        margin-left: -20%;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .submitBtn {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 24px;
+        padding: 20px
+    }
+
+    .vector{
+        margin-top: 25px;
+        width: 90%;
+    }
+}
+

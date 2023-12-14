@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(90deg, #520014 0%, #A70026 49.85%, #520114 100%);
+}
+
+:root {
+    --dark: #607d8b;
+    --light: #f7f7f7;
+    --shadow: 1px 0px 5px darkgray;
+}
+
+.section {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.content {
+    max-width: 1800px;
+    margin: auto;
+    padding: 5% 0px;
+}
+
+.grid-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 350px));
+    grid-gap: 25px 70px;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: -30px;
+}
+.grid-item h3{
+    margin-top: 10px;
+    line-height: 25px;
+
+}
+.grid-item {
+    border-radius: 20px;
+    width: 100%;
+    margin: auto;
+    max-height: 90%;
+    overflow: hidden;
+}
+
+img {
+    border-top-right-radius:10px;
+    border-top-left-radius: 10px;
+}
+
+.grid-row .grid-item span {
+    padding: px;
+    line-height: 1;
+}
+
+.grid-row .grid-item h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.grid-row .grid-item:hover {
+    filter: contrast(0.7);
+}
+
+.grid-row .grid-item {
+    transition: filter 0.5s ease;
+    display: flex;
+    cursor: pointer;
+    background: var(--light);
+    box-shadow: var(--shadow);
+    color: var(--dark);
+    text-align: center;
+    font-family: sans-serif;
+    flex-direction: column-reverse;
+    align-items: stretch;
+}
+
+@media (max-width: 794px) {
+    .grid-item{
+        width: 125%;
+        margin-left: -15%;
+    }
+}
